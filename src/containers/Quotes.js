@@ -7,6 +7,8 @@ import { removeQuote, upvoteQuote, downvoteQuote } from '../actions/quotes';
 class Quotes extends Component {
 
   render() {
+    const { quotes, removeQuote, upvoteQuote, downvoteQuote } = this.props;
+
     return (
       <div>
         <hr />
